@@ -1,6 +1,6 @@
 * {
   /* General taskbar font, I like maple mono ^-^*/
-  font-family: Maple Mono;
+  font-family: Maple Mono NF, Maple Mono;
   border-radius: 8;
   font-size: 14px;
   padding: 0px;
@@ -15,6 +15,8 @@ window#waybar {
   border-style: none;
 }
 
+#custom-cputemp,
+#memory,
 #battery,
 #network,
 #clock,
@@ -23,13 +25,11 @@ window#waybar {
 #workspaces,
 #pulseaudio {
   background-image: linear-gradient(to bottom, #27232b 100%);
-
   margin: 6px;
   margin-right: 0px;
   padding: 4px 8px;
   border-radius: 8px;
   color: #d8cab8;
-
   border-style: none;
   transition-duration: 120ms;
 }
@@ -38,7 +38,9 @@ window#waybar {
   margin-right: 6px;
 }
 
-#pulseaudio:hover {
+#pulseaudio:hover,
+#network:hover,
+#clock:hover {
   background-image: linear-gradient(to bottom, #ac82e9 100%);
   color: #141216;
   transition-duration: 120ms;
@@ -100,13 +102,34 @@ window#waybar {
   color: #fcb167;
 }
 
-#battery {
-  background-color: #222222;
-  color: #1d2021;
+#battery,
+#custom-cputemp {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  color: #d8cab8;
 }
 #battery.warning,
-#battery.critical,
+#custom-cputemp.warning {
+  color: #141216;
+  background-color: #fcbf46;
+  background-image: linear-gradient(to bottom, #fcbf46 100%);
+}
+
 #battery.urgent {
-  color: #1d2021;
+  color: #141216;
   background-color: #fc4649;
+  background-image: linear-gradient(to bottom, #fc4649 100%)
+
+}
+
+#battery.critical,
+#custom-cputemp.critical {
+  color: #141216;
+  background-color: #ff0000;
+  background-image: linear-gradient(to bottom, #ff0000 100%);
+}
+
+#battery.full {
+  color:#141216;
+  background-color: #98ff98;
+  background-image: linear-gradient(to bottom, #98ff98 100%);
 }
