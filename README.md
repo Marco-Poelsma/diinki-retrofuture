@@ -41,7 +41,7 @@ This project also includes a GTK3/4 theme which matches the aesthetic.
 
 ## 📌 Installation Steps
 
-Feel free to watch [this part of my video](https://youtu.be/jFz5gLqv-FM&t=1903) where I demonstrate how to install this rice.
+Feel free to watch [this part of diinki's video](https://youtu.be/jFz5gLqv-FM&t=1903) where they demonstrate how to install this rice.
 
 **I assume you use arch / arch-based, but the steps should be similar regardless.**
 
