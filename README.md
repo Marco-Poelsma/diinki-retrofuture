@@ -1,5 +1,24 @@
 # Retro-Futuristic Linux Rice
 
+This is a fork of [diinki's Retro-Futuristic Linux Rice](https://github.com/diinki/diinki-retrofuture). 
+
+Since this was my first time using Linux Arch, I largely followed [their guide](https://www.youtube.com/watch?v=jFz5gLqv-FM&pp=ygURZGlpbmtpIHJldHJvZnV0dWU%3D), which I found very helpful. If this is your first time using Arch, I recommend you follow it, too. However, I did make some changes to experiment on my own. These include:
+
+- Making the status bar wider
+- Adding different battery, volume, and connection indicators
+- Changing the clock format to match [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
+- Adding CPU and RAM usage indicators to the status bar
+- Changing the placeholder text on the Wofi search bar
+- Open/close GNOME calendar when I click on the clock widget
+- Open/close iwgtk when I click on the connection widget.
+- Made a custom script for the CPU widget, as I wanted to unify CPU usage and temperature.
+
+There's still some work to be done, and I would like to keep modifying this rice to make it my own. These changes include, but are not limited to:
+
+- Change the wallpaper to one made by myself
+- Tweak the GTK colour scheme and add Qt support
+- Make better, more compact dropdowns for the different status bar widgets
+
 <details open>
 <br>
 <summary>Screenshot - Main Rice</summary>
