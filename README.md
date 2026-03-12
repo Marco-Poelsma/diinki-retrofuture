@@ -1,11 +1,5 @@
 # Retro-Futuristic Linux Rice
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E81FQW4S)
-
-If you enjoy the content & art I create, feel entirely free to give a tip on kofi!
-
----
-
 <details open>
 <br>
 <summary>Screenshot - Main Rice</summary>
