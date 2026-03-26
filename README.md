@@ -1,5 +1,7 @@
 # Retro-Futuristic Linux Rice
 
+![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge) 
+
 This is a fork of [diinki's Retro-Futuristic Linux Rice](https://github.com/diinki/diinki-retrofuture). 
 
 ## My additions
