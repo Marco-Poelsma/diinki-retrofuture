@@ -23,6 +23,20 @@ There's still some work to be done, and I would like to keep modifying this rice
 - Tweak the GTK colour scheme and add Qt support
 - Make better, more compact dropdowns for the different status bar widgets
 
+### File Structure
+```
+diinki-retrofuture/
+    ├── alternate_version/
+    ├── config/
+    ├── design_system/
+    ├── gtk_theme/
+    ├── screenshots/
+    ├── wallpapers/
+    ├── .gitignore
+    ├── LICENSE
+    └── README.md
+```
+
 ## Original repo README
 
 <details open>
