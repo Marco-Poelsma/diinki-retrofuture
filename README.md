@@ -21,7 +21,7 @@ There's still some work to be done, and I would like to keep modifying this rice
 - Tweak the GTK colour scheme and add Qt support
 - Make better, more compact dropdowns for the different status bar widgets
 
-## Original README
+## Original repo README
 
 <details open>
 <br>
@@ -64,7 +64,7 @@ This project also includes a GTK3/4 theme which matches the aesthetic.
 
 ## 📌 Installation Steps
 
-Feel free to watch [this part of diinki's video](https://youtu.be/jFz5gLqv-FM&t=1903) where they demonstrate how to install this rice.
+Feel free to watch [this part of my video](https://youtu.be/jFz5gLqv-FM&t=1903) where they demonstrate how to install this rice.
 
 **I assume you use arch / arch-based, but the steps should be similar regardless.**
 
