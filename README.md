@@ -2,6 +2,8 @@
 
 This is a fork of [diinki's Retro-Futuristic Linux Rice](https://github.com/diinki/diinki-retrofuture). 
 
+## My additions
+
 Since this was my first time using Linux Arch, I largely followed [their guide](https://www.youtube.com/watch?v=jFz5gLqv-FM&pp=ygURZGlpbmtpIHJldHJvZnV0dWU%3D), which I found very helpful. If this is your first time using Arch, I recommend you follow it, too. However, I did make some changes to experiment on my own. These include:
 
 - Making the status bar wider
@@ -18,6 +20,8 @@ There's still some work to be done, and I would like to keep modifying this rice
 - Change the wallpaper to one made by myself
 - Tweak the GTK colour scheme and add Qt support
 - Make better, more compact dropdowns for the different status bar widgets
+
+## Original README
 
 <details open>
 <br>
